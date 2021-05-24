@@ -1,4 +1,4 @@
-# i18n-demo
+# Vue-v3-demo
 
 ## Project setup
 ```
