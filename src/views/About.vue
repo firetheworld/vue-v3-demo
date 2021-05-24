@@ -1,7 +1,7 @@
 <template>
   <div class="about">
     <h1>This is an about page</h1>
-    <HelloI18n />
+    <HelloI18n msg='message'/>
     <h1>当前语言是{{locale}}</h1>
     <button @click="changeLang('en')">英文</button>
     <button @click="changeLang('cn')">简体中文</button>

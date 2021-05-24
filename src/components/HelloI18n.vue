@@ -1,5 +1,5 @@
 <template>
-  <p>{{ t('message') }}</p>
+  <p>{{ t(msg) }}</p>
 </template>
 
 <script>
@@ -8,6 +8,7 @@ import { useI18n } from 'vue-i18n'
 
 export default defineComponent({
   name: 'HelloI18n',
+  props: ['msg'],
   setup() {
     const { t } = useI18n({
       inheritLocale: false,
